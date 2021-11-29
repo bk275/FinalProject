@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Metal;
+    src: url("fonts/IronManOfWar001ANcv-6d2Y.ttf");
+}
+body{
+    background-color: black;
+}
+#page_title{
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.images_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images_container img{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 500px;
+    height: 350px;
+}
+.card-title{
+    text-align: center;
+    font-family: Metal, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+}
+footer{
+    background-color: black;
+    clear: both;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
