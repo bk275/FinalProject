@@ -7,6 +7,8 @@
     text-decoration: underline;
     text-align: center;
     padding-bottom: 20px;
+    font-family: Metal, sans-serif;
+    font-size: 400%;
 }
 .navbar-nav {
     float: none;
@@ -18,30 +20,9 @@
     display: inline-block;
     float: none;
 }
-.images_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.images_container img{
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 500px;
-    height: 350px;
-}
-.card-title{
-    text-align: center;
+h3 {
     font-family: Metal, sans-serif;
-    font-weight: bold;
     font-size: 300%;
-}
-@media only screen and (min-width: 768px) {
-    iframe{
-        height: 100%;
-    }
-    .card{
-        width: 50%;
-    }
 }
 footer{
     background-color: black;
