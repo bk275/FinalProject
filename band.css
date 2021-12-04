@@ -1,0 +1,36 @@
+/* DEVELOPER: Benjamin Kustanovich, IS117-001, Fall 2021 */
+@font-face {
+    font-family: Metal;
+    src: url("fonts/IronManOfWar001ANcv-6d2Y.ttf");
+}
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.card-deck{
+    float:left;
+    width: 300px;
+}
+footer{
+    background-color: black;
+    clear: both;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
